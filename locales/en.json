@@ -1,0 +1,69 @@
+{
+    "title": "Michael Condra Portfolio Project",
+    "nav": {
+        "languageSelector": "Language:",
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Welcome to My Basic HTML Project",
+        "description": "This is a simple webpage to demonstrate HTML, CSS, and JavaScript integration.",
+        "button": "Click Me"
+    },
+    "about": {
+        "title": "About",
+        "description": "Information about me."
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "Details of my projects.",
+        "filterLabel": "Filter by category:",
+        "filterAll": "All",
+        "filterWeb": "Web Development",
+        "filterMobile": "Mobile Development",
+        "filterData": "Data Science",
+        "project1": {
+            "title": "Project 1",
+            "imageAlt": "Project 1 Image",
+            "caption": "Web Development Project",
+            "description": "This is a placeholder description for a web development project."
+        },
+        "project2": {
+            "title": "Project 2",
+            "imageAlt": "Project 2 Image",
+            "caption": "Mobile Project",
+            "description": "This is a placeholder description for a mobile project."
+        },
+        "project3": {
+            "title": "Project 3",
+            "imageAlt": "Project 3 Image",
+            "caption": "Data Science Project",
+            "description": "This is a placeholder description for a data science project."
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "description": "List of my skills:",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react": "React",
+        "node": "Node.js",
+        "python": "Python",
+        "sql": "SQL",
+        "git": "Git",
+        "responsive": "Responsive Design",
+        "rest": "RESTful APIs"
+    },
+    "contact": {
+        "title": "Contact",
+        "description": "Join the mailing list.",
+        "nameLabel": "Name:",
+        "emailLabel": "Email:",
+        "messageLabel": "Message:",
+        "submitButton": "Submit"
+    }
+}

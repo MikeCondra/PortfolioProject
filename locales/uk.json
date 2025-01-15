@@ -1,0 +1,69 @@
+{
+    "title": "Проект портфоліо Майкла Кондри",
+    "nav": {
+        "languageSelector": "Мова:",
+        "home": "Головна",
+        "about": "Про мене",
+        "projects": "Проекти",
+        "skills": "Навички",
+        "contact": "Контакти"
+    },
+    "home": {
+        "title": "Ласкаво просимо до мого базового проекту HTML",
+        "description": "Це проста веб-сторінка для демонстрації інтеграції HTML, CSS та JavaScript.",
+        "button": "Натисніть мене"
+    },
+    "about": {
+        "title": "Про мене",
+        "description": "Інформація про мене."
+    },
+    "projects": {
+        "title": "Проекти",
+        "description": "Деталі моїх проектів.",
+        "filterLabel": "Фільтр за категорією:",
+        "filterAll": "Всі",
+        "filterWeb": "Веб-розробка",
+        "filterMobile": "Мобільна розробка",
+        "filterData": "Наука про дані",
+        "project1": {
+            "title": "Проект 1",
+            "imageAlt": "Зображення проекту 1",
+            "caption": "Проект веб-розробки",
+            "description": "Це опис-заповнювач для проекту веб-розробки."
+        },
+        "project2": {
+            "title": "Проект 2",
+            "imageAlt": "Зображення проекту 2",
+            "caption": "Мобільний проект",
+            "description": "Це опис-заповнювач для мобільного проекту."
+        },
+        "project3": {
+            "title": "Проект 3",
+            "imageAlt": "Зображення проекту 3",
+            "caption": "Проект з науки про дані",
+            "description": "Це опис-заповнювач для проекту з науки про дані."
+        }
+    },
+    "skills": {
+        "title": "Навички",
+        "description": "Список моїх навичок:",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react": "React",
+        "node": "Node.js",
+        "python": "Python",
+        "sql": "SQL",
+        "git": "Git",
+        "responsive": "Адаптивний дизайн",
+        "rest": "RESTful API"
+    },
+    "contact": {
+        "title": "Контакти",
+        "description": "Приєднуйтесь до списку розсилки.",
+        "nameLabel": "Ім'я:",
+        "emailLabel": "Електронна пошта:",
+        "messageLabel": "Повідомлення:",
+        "submitButton": "Надіслати"
+    }
+}

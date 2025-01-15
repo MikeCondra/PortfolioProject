@@ -1,0 +1,69 @@
+{
+    "title": "Proyecto de Portafolio de Michael Condra",
+    "nav": {
+        "languageSelector": "Idioma:",
+        "home": "Inicio",
+        "about": "Acerca de",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "contact": "Contacto"
+    },
+    "home": {
+        "title": "Bienvenido a Mi Proyecto Básico de HTML",
+        "description": "Esta es una página web simple para demostrar la integración de HTML, CSS y JavaScript.",
+        "button": "Haz clic aquí"
+    },
+    "about": {
+        "title": "Acerca de",
+        "description": "Información sobre mí."
+    },
+    "projects": {
+        "title": "Proyectos",
+        "description": "Detalles de mis proyectos.",
+        "filterLabel": "Filtrar por categoría:",
+        "filterAll": "Todos",
+        "filterWeb": "Desarrollo Web",
+        "filterMobile": "Desarrollo Móvil",
+        "filterData": "Ciencia de Datos",
+        "project1": {
+            "title": "Proyecto 1",
+            "imageAlt": "Imagen del Proyecto 1",
+            "caption": "Proyecto de Desarrollo Web",
+            "description": "Esta es una descripción de marcador de posición para un proyecto de desarrollo web."
+        },
+        "project2": {
+            "title": "Proyecto 2",
+            "imageAlt": "Imagen del Proyecto 2",
+            "caption": "Proyecto Móvil",
+            "description": "Esta es una descripción de marcador de posición para un proyecto móvil."
+        },
+        "project3": {
+            "title": "Proyecto 3",
+            "imageAlt": "Imagen del Proyecto 3",
+            "caption": "Proyecto de Ciencia de Datos",
+            "description": "Esta es una descripción de marcador de posición para un proyecto de ciencia de datos."
+        }
+    },
+    "skills": {
+        "title": "Habilidades",
+        "description": "Lista de mis habilidades:",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react": "React",
+        "node": "Node.js",
+        "python": "Python",
+        "sql": "SQL",
+        "git": "Git",
+        "responsive": "Diseño Responsivo",
+        "rest": "APIs RESTful"
+    },
+    "contact": {
+        "title": "Contacto",
+        "description": "Únete a la lista de correo.",
+        "nameLabel": "Nombre:",
+        "emailLabel": "Correo Electrónico:",
+        "messageLabel": "Mensaje:",
+        "submitButton": "Enviar"
+    }
+}

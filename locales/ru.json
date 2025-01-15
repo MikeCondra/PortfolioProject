@@ -1,0 +1,69 @@
+{
+    "title": "Проект портфолио Майкла Кондры",
+    "nav": {
+        "languageSelector": "Язык:",
+        "home": "Главная",
+        "about": "Обо мне",
+        "projects": "Проекты",
+        "skills": "Навыки",
+        "contact": "Контакты"
+    },
+    "home": {
+        "title": "Добро пожаловать в мой базовый проект HTML",
+        "description": "Это простая веб-страница для демонстрации интеграции HTML, CSS и JavaScript.",
+        "button": "Нажми меня"
+    },
+    "about": {
+        "title": "Обо мне",
+        "description": "Информация обо мне."
+    },
+    "projects": {
+        "title": "Проекты",
+        "description": "Детали моих проектов.",
+        "filterLabel": "Фильтр по категории:",
+        "filterAll": "Все",
+        "filterWeb": "Веб-разработка",
+        "filterMobile": "Мобильная разработка",
+        "filterData": "Наука о данных",
+        "project1": {
+            "title": "Проект 1",
+            "imageAlt": "Изображение проекта 1",
+            "caption": "Проект веб-разработки",
+            "description": "Это описание-заполнитель для проекта веб-разработки."
+        },
+        "project2": {
+            "title": "Проект 2",
+            "imageAlt": "Изображение проекта 2",
+            "caption": "Мобильный проект",
+            "description": "Это описание-заполнитель для мобильного проекта."
+        },
+        "project3": {
+            "title": "Проект 3",
+            "imageAlt": "Изображение проекта 3",
+            "caption": "Проект по науке о данных",
+            "description": "Это описание-заполнитель для проекта по науке о данных."
+        }
+    },
+    "skills": {
+        "title": "Навыки",
+        "description": "Список моих навыков:",
+        "html": "HTML",
+        "css": "CSS",
+        "javascript": "JavaScript",
+        "react": "React",
+        "node": "Node.js",
+        "python": "Python",
+        "sql": "SQL",
+        "git": "Git",
+        "responsive": "Адаптивный дизайн",
+        "rest": "RESTful API"
+    },
+    "contact": {
+        "title": "Контакты",
+        "description": "Присоединяйтесь к списку рассылки.",
+        "nameLabel": "Имя:",
+        "emailLabel": "Электронная почта:",
+        "messageLabel": "Сообщение:",
+        "submitButton": "Отправить"
+    }
+}

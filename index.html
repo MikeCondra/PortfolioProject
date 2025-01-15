@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Michael Condra Portfolio Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <div class="language-selector">
+                <label for="languageSelector" data-i18n="nav.languageSelector">Language:</label>
+                <select id="languageSelector">
+                    <option value="en">English</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="ru">Русский (Russian)</option>
+                    <option value="uk">Українська (Ukrainian)</option>
+                    <option value="pt">Português (Portugal)</option>
+                    <option value="br">Português (Brasil)</option>
+                </select>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" tabindex="-1">
+            <h1 data-i18n="home.title">Welcome to My Basic HTML Project</h1>
+            <p data-i18n="home.description">This is a simple webpage to demonstrate HTML, CSS, and JavaScript integration.</p>
+            <button id="alertButton" data-i18n="home.button">Click Me</button>
+        </section>
+        <section id="about" tabindex="-1">
+            <h2 data-i18n="about.title">About</h2>
+            <p data-i18n="about.description">Information about me.</p>
+        </section>
+        <section id="projects" tabindex="-1">
+            <div class="projects-header">
+                <h2 data-i18n="projects.title">Projects</h2>
+                <p data-i18n="projects.description">Details of my projects.</p>
+                <div class="filter">
+                    <label for="projectFilter" data-i18n="projects.filterLabel">Filter by category:</label>
+                    <select id="projectFilter">
+                        <option value="all" data-i18n="projects.filterAll">All</option>
+                        <option value="web" data-i18n="projects.filterWeb">Web Development</option>
+                        <option value="mobile" data-i18n="projects.filterMobile">Mobile Development</option>
+                        <option value="data" data-i18n="projects.filterData">Data Science</option>
+                    </select>
+                </div>
+            </div>
+            <article data-category="web">
+                <h3 data-i18n="projects.project1.title">Project 1</h3>
+                <figure>
+                    <img src="images/Dog1.jpg" alt="Project 1 Image" data-i18n="projects.project1.imageAlt">
+                    <figcaption data-i18n="projects.project1.caption">Web Development Project</figcaption>
+                </figure>
+                <p data-i18n="projects.project1.description">This is a placeholder description for a web development project.</p>
+            </article>
+            <article data-category="mobile">
+                <h3 data-i18n="projects.project2.title">Project 2</h3>
+                <figure>
+                    <img src="images/Dog2.jpg" alt="Project 2 Image" data-i18n="projects.project2.imageAlt">
+                    <figcaption data-i18n="projects.project2.caption">Mobile Project</figcaption>
+                </figure>
+                <p data-i18n="projects.project2.description">This is a placeholder description for a mobile project.</p>
+            </article>
+            <article data-category="data">
+                <h3 data-i18n="projects.project3.title">Project 3</h3>
+                <figure>
+                    <img src="images/Dog3.jpg" alt="Project 3 Image" data-i18n="projects.project3.imageAlt">
+                    <figcaption data-i18n="projects.project3.caption">Data Science Project</figcaption>
+                </figure>
+                <p data-i18n="projects.project3.description">This is a placeholder description for a data science project.</p>
+            </article>
+        </section>
+        <section id="skills" tabindex="-1">
+            <h2 data-i18n="skills.title">Skills</h2>
+            <p data-i18n="skills.description">List of my skills:</p>
+            <ul>
+                <li data-i18n="skills.html">HTML</li>
+                <li data-i18n="skills.css">CSS</li>
+                <li data-i18n="skills.javascript">JavaScript</li>
+                <li data-i18n="skills.react">React</li>
+                <li data-i18n="skills.node">Node.js</li>
+                <li data-i18n="skills.python">Python</li>
+                <li data-i18n="skills.sql">SQL</li>
+                <li data-i18n="skills.git">Git</li>
+                <li data-i18n="skills.responsive">Responsive Design</li>
+                <li data-i18n="skills.rest">RESTful APIs</li>
+            </ul>
+        </section>
+        <section id="contact" tabindex="-1">
+            <h2 data-i18n="contact.title">About Me</h2>
+            <p data-i18n="contact.description">Join the mailing list.</p>
+            <form id="contactForm" role="form">
+                <div class="form-group">
+                    <label for="name" data-i18n="contact.nameLabel">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="contact.emailLabel">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="contact.messageLabel">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" id="submitButton" disabled data-i18n="contact.submitButton">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2025 Michael Condra</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const projectFilter = document.getElementById('projectFilter');
+            const projects = document.querySelectorAll('#projects article');
+
+            projectFilter.addEventListener('change', (event) => {
+                const selectedCategory = event.target.value;
+                projects.forEach(project => {
+                    if (selectedCategory === 'all' || project.getAttribute('data-category') === selectedCategory) {
+                        project.style.display = 'block';
+                    } else {
+                        project.style.display = 'none';
+                    }
+                });
+            });
+
+            // Form validation and submission
+            const contactForm = document.getElementById('contactForm');
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+            const submitButton = document.getElementById('submitButton');
+
+            function validateForm() {
+                const name = nameInput.value.trim();
+                const email = emailInput.value.trim();
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (name && emailPattern.test(email)) {
+                    submitButton.disabled = false;
+                } else {
+                    submitButton.disabled = true;
+                }
+            }
+
+            nameInput.addEventListener('input', validateForm);
+            emailInput.addEventListener('input', validateForm);
+
+            contactForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const name = nameInput.value.trim();
+                const email = emailInput.value.trim();
+                const message = messageInput.value.trim();
+                alert(`Form submitted successfully!\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+            });
+        });
+    </script>
+</body>
+</html>
